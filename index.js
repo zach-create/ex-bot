@@ -17,21 +17,6 @@ bot.on('message', msg=>{
      msg.reply('HELLO FRIEND!');
     
     }
-    })
-    bot.on('message', msg=>{
-        if(msg.content === "Hello"){
-         msg.reply('HELLO FRIEND!');
-        
-        }
-        })
-
-        bot.on('message', msg=>{
-            if(msg.content === "hello"){
-             msg.reply('HELLO FRIEND!');
-            
-            }
-            })
-        
     
             bot.on('message', msg=>{
                 if(msg.content === "BYE"){
@@ -39,21 +24,6 @@ bot.on('message', msg=>{
                 
                 }
                 })
-
-                bot.on('message', msg=>{
-                    if(msg.content === "Bye"){
-                     msg.reply('Babye Catch You later!');
-                    
-                    }
-                    })
-
-                    bot.on('message', msg=>{
-                        if(msg.content === "bye"){
-                         msg.reply('Babye Catch You later!');
-                        
-                        }
-                        })
-                    
 
 
 
