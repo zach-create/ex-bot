@@ -15,27 +15,55 @@ bot.on('message', msg=>{
     
     }
     })
-
-
-    bot.on('message', msg=>{
+bot.on('message', msg=>{
         if(msg.content === "Version"){
          msg.reply('0,1.3');
         
         }
         })
-     
-        bot.on('message', msg=>{
+bot.on('message', msg=>{
             if(msg.content === "HELLO"){
              msg.reply('Hello Mate!');
             
             }
             })
+
             bot.on('message', msg=>{
+                if(msg.content === "Hello"){
+                 msg.reply('Hello Mate!');
+                
+                }
+                })
+
+
+
+                bot.on('message', msg=>{
+                    if(msg.content === "hello"){
+                     msg.reply('Hello Mate!');
+                    
+                    }
+                    })
+
+
+
+ bot.on('message', msg=>{
                 if(msg.content === "BYE"){
                  msg.reply('BYE Hope to See You Soon');
                 
                 }
                 })
+                bot.on('message', msg=>{
+                    if(msg.content === "Bye"){
+                     msg.reply('BYE Hope to See You Soon');
+                    
+                    }
+                    })
+                    bot.on('message', msg=>{
+                        if(msg.content === "bye"){
+                         msg.reply('BYE Hope to See You Soon');
+                        
+                        }
+                        })
          
 
 
