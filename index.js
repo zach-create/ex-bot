@@ -12,12 +12,39 @@ console.log('This Bot is Online');
 
 
 
-
-
-
 bot.on('message', msg=>{
-    if(msg.content === "!servers"){
+    if(msg.content === "HELLO"){
+     msg.reply('HELLO FRIEND!');
+    
+    }
+    })
+    
+    
+    bot.on('message', msg=>{
+        if(msg.content === "Author"){
+         msg.reply('Zach');
+        
+        }
+        })
+    bot.on('message', msg=>{
+            if(msg.content === "Version"){
+             msg.reply('0.3.1');
+            
+            }
+    })
+    
+    
 
+
+
+const PREFIX ='!';
+
+
+bot.on('ready', () =>{
+let args = message.content.substring(PREFIX.length).split("");
+ switch(args[0]){
+
+    case 'servers':
         const embed = new Discord.MessageEmbed()
         .setTitle('INDINET CSGO SERVER IP')
         .addField('DEATHMATCH','steam://connect/45.117.204.250:27015').addField('PUBLIC CASUAL','steam://connect/45.117.204.250:27016')
@@ -27,37 +54,22 @@ bot.on('message', msg=>{
         .addField('MULTI 1 V 1 ','steam://connect/45.117.203.250:27017')
         .addField('KZ-CLIMB','steam://connect/45.117.203.250:27016')
         .addField('SCRIM 2','steam://connect/103.57.241.226:28016')
-        .setColor(0xFEFA07);
-        ;
+        .setColor(0xFEFA07)
         message.channel.send(embed);
+     break;
 
 
-     msg.reply('HELLO FRIEND!');
-    
-    }
-    })
-    
 
-bot.on('message', msg=>{
-if(msg.content === "HELLO"){
- msg.reply('HELLO FRIEND!');
 
-}
+
+ }
+
+
 })
 
 
-bot.on('message', msg=>{
-    if(msg.content === "Author"){
-     msg.reply('Zach');
-    
-    }
-    })
-bot.on('message', msg=>{
-        if(msg.content === "Version"){
-         msg.reply('0.3.1');
-        
-        }
-})
+
+
 
 
 bot.login(process.env.token); 
