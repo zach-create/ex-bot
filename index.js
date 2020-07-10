@@ -35,21 +35,21 @@ bot.on('message', msg=>{
     
             bot.on('message', msg=>{
                 if(msg.content === "BYE"){
-                 msg.reply('HELLO FRIEND!');
+                 msg.reply('Babye Catch You later!');
                 
                 }
                 })
 
                 bot.on('message', msg=>{
                     if(msg.content === "Bye"){
-                     msg.reply('HELLO FRIEND!');
+                     msg.reply('Babye Catch You later!');
                     
                     }
                     })
 
                     bot.on('message', msg=>{
                         if(msg.content === "bye"){
-                         msg.reply('HELLO FRIEND!');
+                         msg.reply('Babye Catch You later!');
                         
                         }
                         })
