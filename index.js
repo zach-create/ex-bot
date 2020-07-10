@@ -14,7 +14,7 @@ console.log('This Bot is Online');
 const PREFIX = "!";
 
 bot.on('message', message => {
-    let args = message.content.substring(PREFIX.length).split(" ");
+    let args = message.content.slice(PREFIX.length).split(" ");
     switch(args[0]) {
       case 'servers':
           const embed = new Discord.MessageEmbed()
