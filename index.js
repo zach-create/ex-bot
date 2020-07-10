@@ -64,8 +64,8 @@ bot.on('message', msg=>{
                         
                         }
                         })
-         
-                        if (message.content === '!mvp') {
+         bot.on('message', msg=>{        
+                        if (msg.content === '!mvp') {
 
                         const exampleEmbed = new Discord.MessageEmbed()
                         .setColor('#0099ff')
@@ -91,7 +91,7 @@ bot.on('message', msg=>{
 
                         }
 
-
+                    })
 
 
 
