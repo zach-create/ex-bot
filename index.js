@@ -65,7 +65,7 @@ bot.on('message', msg=>{
                         }
                         })
          
-if(Message.content === "mvp"){
+                        if (message.content === '!mvp') {
 
                         const exampleEmbed = new Discord.MessageEmbed()
                         .setColor('#0099ff')
