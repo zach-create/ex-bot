@@ -72,6 +72,10 @@ bot.on('message', message => {
 
                     if(!message.member.roles.find(r => r.name ==="HEAD ADMIN") || !message.member.roles.find(r => r.name ==="ADMIN")) return message.channel.sen('YOU DO NOT HAVE THE PERMISSION')
 
+message.reply(!pong)
+
+
+/*
 
             const user = message.mentions.users.first();
             if (user) {
@@ -99,7 +103,7 @@ bot.on('message', message => {
 
             }
 
-
+*/
             break;
             case 'ban':
             const userr = message.mentions.users.first();
