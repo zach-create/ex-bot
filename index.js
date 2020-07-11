@@ -62,7 +62,7 @@ bot.on('message', msg => {
     }
 })
 
-const PREFIX = '+';
+const PREFIX = '!';
 
 bot.on('message', message => {
 
