@@ -69,6 +69,10 @@ bot.on('message', message => {
     let args = message.content.substring(PREFIX.length).split(" ");
     switch (args[0]) {
         case 'kick':
+
+                    if(!message.member.roles.find(r => r.name ==="HEAD ADMIN") || !message.member.roles.find(r => r.name ==="ADMIN")) return message.channel.sen('YOU DO NOT HAVE THE PERMISSION')
+
+
             const user = message.mentions.users.first();
             if (user) {
                 const member = message.guild.member(user);
