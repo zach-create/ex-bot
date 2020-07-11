@@ -70,7 +70,14 @@ bot.on('message', message => {
     switch (args[0]) {
         case 'kick':
 
-                    if(!message.member.roles.find(r => r.name ==="HEAD ADMIN")) return message.channel.send('YOU DO NOT HAVE THE PERMISSION')
+                    if(!message.member.roles.find(r => r.name ==="HEAD ADMIN") ||   !message.member.roles.find(r => r.name ==="ADMIN") )  return message.channel.send('YOU DO NOT HAVE THE PERMISSION')
+                    
+                    
+                    
+                    
+                    
+                    
+                  
 
                    message.reply('!pong')
 
