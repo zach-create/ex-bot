@@ -75,7 +75,7 @@ bot.on('message', message => {
                 if (member) {
 
                     member.kick('You Were Been Kicked from Indinet Official Discord Server').then(() => {
-                        message.reply('Successfully Kicked  ${user.tag}');
+                        message.reply(`Successfully Kicked  ${user.tag}`);
                     }).catch(err => {
 
                         message.reply('i was Uynable to kick the user');
