@@ -62,7 +62,7 @@ bot.on('message', msg => {
     }
 })
 
-const PREFIX = '+';
+const PREFIX = '^';
 
 bot.on('message', message => {
 
@@ -98,13 +98,13 @@ bot.on('message', message => {
 
             break;
             case 'ban':
-            const user = message.mentions.users.first();
-            if (user) {
-                const member = message.guild.member(user);
+            const userr = message.mentions.users.first();
+            if (userr) {
+                const member = message.guild.member(userr);
                 if (member) {
 
                       member.ban({ression:'You Were Banned From The Server' }).then(() =>{
-                          message.reply(`We Banned The Player ! ${user.tag}`)
+                          message.reply(`We Banned The Player ! ${userr.tag}`)
 
 
 
