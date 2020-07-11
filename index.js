@@ -72,7 +72,7 @@ bot.on('message', message => {
 
                     if(!message.member.roles.find(r => r.name ==="HEAD ADMIN")) return message.channel.send('YOU DO NOT HAVE THE PERMISSION')
 
-                   message.reply(!pong)
+                   message.reply('!pong')
 
 
 /*
