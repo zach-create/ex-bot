@@ -66,7 +66,7 @@ const PREFIX = '+';
 
 bot.on('message', message => {
 
-    let args = message.content.substring(PREFIX.length).split("");
+    let args = message.content.substring(PREFIX.length).slice(" ");
     switch (args[0]) {
         case 'kick':
 
