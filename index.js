@@ -138,6 +138,10 @@ bot.on('message', message => {
             }
         break;
         case 'ban':
+            if (message.member.roles.find(r => r.name === "HEAD ADMIN")) {
+
+
+
             const userr = message.mentions.users.first();
             if (userr) {
                 const member = message.guild.member(userr);
@@ -161,6 +165,45 @@ bot.on('message', message => {
 
             }
 
+        }else if(message.member.roles.find(r => r.name === "HEAD ADMIN")) {
+
+            const userr = message.mentions.users.first();
+            if (userr) {
+                const member = message.guild.member(userr);
+                if (member) {
+
+                    member.ban({ ression: 'You Were Banned From The Server' }).then(() => {
+                        message.reply(`We Banned The Player ! ${userr.tag}`)
+
+
+
+
+                    })
+                } else {
+
+                    message.reply("That Usser isint in the Server Right Now")
+
+
+                }
+            } else {
+                message.reply('You Need to Specify A Person')
+
+            }
+
+
+
+
+
+
+
+        }else{
+
+
+
+            return message.channel.send('YOU DO NOT HAVE THE PERMISSION')
+
+
+        }
             break;
 
     }
