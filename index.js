@@ -133,7 +133,7 @@ bot.on('message', message => {
 
             } else {
 
-                return message.channel.send('YOU DO NOT HAVE THE PERMISSION')
+                return message.channel.send('```YOU DO NOT HAVE THE PERMISSION```')
 
             }
         break;
@@ -200,7 +200,7 @@ bot.on('message', message => {
 
 
 
-            return message.channel.send('YOU DO NOT HAVE THE PERMISSION')
+            return message.channel.send('```YOU DO NOT HAVE THE PERMISSION```')
 
 
         }
