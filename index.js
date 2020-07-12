@@ -161,29 +161,6 @@ bot.on('message', message => {
             }
 
             break;
-            case 'mvp':
-                const embed = new Discord.MessageEmbed() 
-                .setTitle('ALL THE MVP OF INDINET SERVER')
-                .addField('Beautiful','https://www.youtube.com/watch?v=rSOzN0eihsE')
-                .addField('SSJ_Japanese','https://www.youtube.com/watch?v=MeFoasNr3d4')
-            
-                .setColor(0xFEFA07)
-                message.channel.send(embed);
-                break;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
