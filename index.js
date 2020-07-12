@@ -64,6 +64,98 @@ bot.on('message', msg => {
     }
 })
 
+
+
+/////////////////////////////////////////////////////////////////
+
+bot.on('message', msg => {
+    if (msg.content === "+ping") {
+
+        if (message.member.roles.find(r => r.name === "HEAD ADMIN")) {
+
+
+            const user = message.mentions.users.first();
+            if (user) {
+                const member = message.guild.member(user);
+                if (member) {
+
+                    member.kick('You Were Been Kicked from Indinet Official Discord Server').then(() => {
+                        message.reply(`Successfully Kicked  ${user.tag}`);
+                    }).catch(err => {
+
+                        message.reply('i was Uynable to kick the user');
+                        console.log(err);
+
+
+                    });
+
+                } else {
+
+                    message.reply("That Usser isint in the Server Right Now")
+
+
+                }
+            } else {
+                message.reply('You Need to Specify A Person')
+
+            }
+
+        } else if (message.member.roles.find(r => r.name === "ADMIN")) {
+
+
+            const user = message.mentions.users.first();
+            if (user) {
+                const member = message.guild.member(user);
+                if (member) {
+
+                    member.kick('You Were Been Kicked from Indinet Official Discord Server').then(() => {
+                        message.reply(`Successfully Kicked  ${user.tag}`);
+                    }).catch(err => {
+
+                        message.reply('I was Unable to kick the user');
+                        console.log(err);
+
+
+                    });
+
+                } else {
+
+                    message.reply("That User isint in the Server Right Now")
+
+
+                }
+            } else {
+                message.reply('You Need to Specify A Person')
+
+            }
+
+        } else {
+
+            return message.channel.send('YOU DO NOT HAVE THE PERMISSION')
+
+        }
+
+
+
+    }
+})
+
+
+////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const PREFIX = '!';
 
 bot.on('message', message => {
