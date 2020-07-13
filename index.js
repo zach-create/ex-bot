@@ -63,6 +63,22 @@ bot.on('message', msg => {
 
     }
 })
+bot.on('message', msg => {
+    if (msg.content === ".ranks") {
+        msg.reply('https://rank.indinet.co.in/');
+
+    }
+})
+bot.on('message', msg => {
+    if (msg.content === ".help") {
+        msg.channel.send('``` WELCOME TO INDINET OFFICIAL AND PERSONAL BOT \n COMMANDS ONLY FOR ADMIN - .kick @user_name \n .ban @user_name \n \n COMMANDS FOR ALL \n .rank - To get a Link To See Ranks \n And Some Greeting Commands  HELLO BYE \n \n \n HAPPY GAMING \n-Team INDINET  ```');
+
+    }
+})
+
+
+
+
 
 
 const PREFIX = '!';
