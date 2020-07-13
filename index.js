@@ -71,7 +71,7 @@ bot.on('message', msg => {
 })
 bot.on('message', msg => {
     if (msg.content === ".help") {
-        msg.channel.send(' ``` **WELCOME TO INDINET OFFICIAL AND PERSONAL BOT** \n **COMMANDS ONLY FOR ADMIN** \n -.kick @user_name \n -.ban @user_name \n \n **COMMANDS FOR ALL** \n -.rank - To get a Link To See Ranks \n -Some Greeting Commands  HELLO BYE \n \n \n **HAPPY GAMING** \n*-Team INDINET*  ```');
+        msg.channel.send(' ``` **WELCOME TO INDINET OFFICIAL AND PERSONAL BOT ** \n **COMMANDS ONLY FOR ADMIN** \n -.kick @user_name \n -.ban @user_name \n \n **COMMANDS FOR ALL** \n -.rank - To get a Link To See Ranks \n -Some Greeting Commands  HELLO BYE \n \n \n **HAPPY GAMING** \n*-Team INDINET*  ```');
 
     }
 })
