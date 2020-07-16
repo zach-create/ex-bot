@@ -12,13 +12,13 @@ bot.on('ready', () => {
 })
 
 bot.on('message', msg => {
-    if (msg.content === "Author") {
+    if (msg.content === ".author") {
         msg.reply('Zach');
 
     }
 })
 bot.on('message', msg => {
-    if (msg.content === "Version") {
+    if (msg.content === ".version") {
         msg.reply('0,1.3');
 
     }
