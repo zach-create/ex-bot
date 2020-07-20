@@ -80,7 +80,7 @@ bot.on('message', msg => {
 
 bot.on('message', msg => {
     if (msg.content === ".top") {
-        msg.channel.send(' ```𝐈𝐍𝐃𝐈𝐍𝐄𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐎𝐓  \n TOP PLAYERS OF EACH SERVERS \n RETAKE 1 \n-\n-\n-\n REATKE RUSH \n-\n-\n-\n SCRIM 2 \n-\n-\n-\n \n CASUAL DEATHMATCH \n-\n-\n-\n Arena 1 v 1 \n-\n-\n-\n Executes \n-\n-\n-\n PUBLIC CASUAL \n-\n-\n-\n  𝐇𝐚𝐩𝐩𝐲 𝐆𝐚𝐦𝐢𝐧𝐠 \n-TEAM INDINET ```');
+        msg.channel.send(' ```𝐈𝐍𝐃𝐈𝐍𝐄𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐎𝐓  \n TOP PLAYERS OF EACH SERVERS \n RETAKE 1 \n-\n-\n-\n REATKE RUSH \n-\n-\n-\n SCRIM 2 \n-ItAin (2223) 12h 2.06 kd \n-Okay!!! | cs.mone..(1776) 17h 1.54 kd \n-pauL (1625) 22h 1.18 kd\n \n CASUAL DEATHMATCH \n-\n-\n-\n Arena 1 v 1 \n-\n-\n-\n Executes \n-\n-\n-\n PUBLIC CASUAL \n-\n-\n-\n  𝐇𝐚𝐩𝐩𝐲 𝐆𝐚𝐦𝐢𝐧𝐠 \n-TEAM INDINET ```');
 
     }
 })
