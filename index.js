@@ -80,7 +80,7 @@ bot.on('message', msg => {
 
 bot.on('message', msg => {
     if (msg.content === ".top") {
-        msg.channel.send(' ```𝐈𝐍𝐃𝐈𝐍𝐄𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐎𝐓  \n TOP PLAYERS OF EACH SERVERS \n RETAKE 1 \n REATKE RUSH \n SCRIM 2 \n CASUAL DEATHMATCH \n Arena 1 v 1 \n Executes \n PUBLIC CASUAL ```');
+        msg.channel.send(' ```𝐈𝐍𝐃𝐈𝐍𝐄𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐎𝐓  \n TOP PLAYERS OF EACH SERVERS \n RETAKE 1 \n-\n-\n-\n REATKE RUSH \n-\n-\n-\n SCRIM 2-\n-\n-\n \n CASUAL DEATHMATCH \n-\n-\n-\n Arena 1 v 1 \n-\n-\n-\n Executes \n-\n-\n-\n PUBLIC CASUAL-\n-\n-\n  𝐇𝐚𝐩𝐩𝐲 𝐆𝐚𝐦𝐢𝐧𝐠 \n-TEAM INDINET ```');
 
     }
 })
