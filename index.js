@@ -80,8 +80,14 @@ bot.on('message', msg => {
 
 bot.on('message', msg => {
     if (msg.content === ".top") {
-        msg.channel.send(' ```𝐈𝐍𝐃𝐈𝐍𝐄𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐎𝐓  \n TOP PLAYERS OF EACH SERVERS \n RETAKE 1 \n- ＮＯＳＦＥ�..(150,740) 1.32 kd\n-XenoN (92,770) 1.06 kd\n-♥BrAd™♥ (76,774) 1.58 kd \n REATKE RUSH \n-opguyyyy (2994) 6.17\n-xTent (2550) 1.96 kd\n-♥BrAd™♥ (2136)1.64 kd \n SCRIM 2 \n-ItAin (2223) 2.06 kd \n-Okay!!! | cs.mone..(1776) 1.54 kd \n-pauL (1625) 1.18 kd\n \n CASUAL DEATHMATCH \n-hailzak (1010544) 2.12 kd\n-dTp_PhySco (967941) 1.84 kd\n-Kindle_YT (615222) 1.60 kd\n Arena 1 v 1 \n-SmokeBOB#dread... (138761) 2.06 kd\n-opguyyyy (106350) 5.36 kd\n-buddha (86471) 1.36\n Executes \n-r3kt3r (11107) 2.08 kd\n-uglyzoro (9131) 1.18 kd\n-RaNk3R (7208) 1.50 kd\n PUBLIC CASUAL \n-ホタル pnx- (146248) 1.14 kd\n-✪RAG3E2k (136255) 1.19 kd\n-haha what hhehehe..(116588) 1.56 kd \n \n ***NOTE:- This Bot Refreshes Every 24 Hours ***\n  𝐇𝐚𝐩𝐩𝐲 𝐆𝐚𝐦𝐢𝐧𝐠 \n-TEAM INDINET ```');
 
+
+        msg.channel.send('Failed to load top.rby script');
+
+        //msg.channel.send(' ```𝐈𝐍𝐃𝐈𝐍𝐄𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐎𝐓  \n TOP PLAYERS OF EACH SERVERS \n RETAKE 1 \n- ＮＯＳＦＥ�..(150,740) 1.32 kd\n-XenoN (92,770) 1.06 kd\n-♥BrAd™♥ (76,774) 1.58 kd \n\n REATKE RUSH \n-opguyyyy (2994) 6.17\n-xTent (2550) 1.96 kd\n-♥BrAd™♥ (2136)1.64 kd \n\n SCRIM 2 \n-ItAin (2223) 2.06 kd \n-Okay!!! | cs.mone..(1776) 1.54 kd \n-pauL (1625) 1.18 kd\n \n CASUAL DEATHMATCH \n-hailzak (1010544) 2.12 kd\n-dTp_PhySco (967941) 1.84 kd\n-Kindle_YT (615222) 1.60 kd\n\n Arena 1 v 1 \n-SmokeBOB#dread... (138761) 2.06 kd\n-opguyyyy (106350) 5.36 kd\n-buddha (86471) 1.36\n\n Executes \n-r3kt3r (11107) 2.08 kd\n-uglyzoro (9131) 1.18 kd\n-RaNk3R (7208) 1.50 kd\n \nPUBLIC CASUAL \n-ホタル pnx- (146248) 1.14 kd\n-✪RAG3E2k (136255) 1.19 kd\n-haha what hhehehe..(116588) 1.56 kd \n \n ***NOTE:- This Bot Refreshes Every 24 Hours ***\n \n 𝐇𝐚𝐩𝐩𝐲 𝐆𝐚𝐦𝐢𝐧𝐠 \n-TEAM INDINET ```');
+
+    
+    
     }
 })
 
