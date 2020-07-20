@@ -7,7 +7,7 @@ const token = 'NzMxMDMwODY2MTg4MzA0Mzk1.XwiPHQ.rzdDoCcgdxL21Li5Rsk8-rcHy4A';
 bot.on('ready', () => {
 
     console.log('This Bot is Online');
-    bot.user.setActivity('69,845 Players', { type: 'WATCHING' }).catch(console.error);
+    bot.user.setActivity('70,238 Players', { type: 'WATCHING' }).catch(console.error);
 
 })
 
@@ -80,7 +80,7 @@ bot.on('message', msg => {
 
 bot.on('message', msg => {
     if (msg.content === ".top") {
-        msg.channel.send(' ```𝐈𝐍𝐃𝐈𝐍𝐄𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐎𝐓  \n TOP PLAYERS OF EACH SERVERS \n RETAKE 1 \n REATKE RUSH \n SCRIM 2 \n CASUAL DEATHMATCH \n Arena 1 v 1 \n Executes \n  PUBLIC CASUAL ```');
+        msg.channel.send(' ```𝐈𝐍𝐃𝐈𝐍𝐄𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐎𝐓  \n TOP PLAYERS OF EACH SERVERS \n RETAKE 1 \n REATKE RUSH \n SCRIM 2 \n CASUAL DEATHMATCH \n Arena 1 v 1 \n Executes \n PUBLIC CASUAL ```');
 
     }
 })
