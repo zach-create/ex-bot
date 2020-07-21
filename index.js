@@ -320,6 +320,19 @@ bot.on('message', message => {
             }
             break;
 
+
+
+case 'poll':
+    const embed = new MessageEmbed()
+.setcolor(0xFFc300)
+.setTitle("initialize a poll")
+if(!args[1]){
+
+    message.channel.send(embed);
+}
+
+
+
     }
 
 
