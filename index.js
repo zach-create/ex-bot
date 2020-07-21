@@ -26,7 +26,7 @@ bot.on('message', msg => {
 bot.on('message', msg => {
     if (msg.content === "HELLO") {
         
-        message.react('😉');
+        msg.react('😉');
         msg.reply('Hello Mate!');
 
     }
@@ -34,7 +34,7 @@ bot.on('message', msg => {
 bot.on('message', msg => {
     if (msg.content === "Hello") {
         
-        message.react('😉');
+        msg.react('😉');
         msg.reply('Hello Mate!');
 
     }
@@ -43,7 +43,7 @@ bot.on('message', msg => {
 bot.on('message', msg => {
     if (msg.content === "hello") {
         
-        message.react('😉');
+        msg.react('😉');
         msg.reply('Hello Mate!');
 
     }
@@ -54,21 +54,21 @@ bot.on('message', msg => {
 bot.on('message', msg => {
     if (msg.content === "BYE") {
         
-        message.react('😴');
+        msg.react('😴');
         msg.reply('BYE Hope to See You Soon');
 
     }
 })
 bot.on('message', msg => {
     if (msg.content === "Bye") {
-        message.react('😴');
+        msg.react('😴');
         msg.reply('BYE Hope to See You Soon');
 
     }
 })
 bot.on('message', msg => {
     if (msg.content === "bye") {
-        message.react('😴');
+        msg.react('😴');
         msg.reply('BYE Hope to See You Soon');
 
     }
