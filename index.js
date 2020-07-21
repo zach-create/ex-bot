@@ -321,6 +321,23 @@ bot.on('message', message => {
             break;
 
 
+  case 'poll':
+      if(!args[1]){
+        message.react('❌');
+        message.channel.send('ATTACH A SENTENCE AFTER poll ')
+      }
+      let msgArgs = args.slice(1).join(" ");
+      message.channel.send("**" + msgArgs + "**" ).then(messageReaction => {
+
+        message.react('👍');
+        message.react('👎');
+        message.delete(3000).catch(console.error);
+
+
+      });
+      break;
+
+
 
 
 
