@@ -323,16 +323,13 @@ bot.on('message', message => {
 
   case 'poll':
 
-  const embed = new Discord.MessageEmbed()
-  .setColor(0xFFC300)
-  .setTitle("INITIATE A POLL")
-  .setDescription("ATTACH A LINE TO IT")
+ 
 
       if(!args[1]){
-message.channel.send(embed);
-break;
-        //message.react('❌');
-        //message.channel.send('ATTACH A SENTENCE AFTER poll ')
+
+        message.react('❌');
+        message.channel.send('ATTACH A SENTENCE AFTER poll ')
+        break;
       }
       let msgArgs = args.slice(1).join(" ");
       message.channel.send("**" + msgArgs + "**" ).then(messageReaction => {
