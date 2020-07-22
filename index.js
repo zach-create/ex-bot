@@ -73,6 +73,7 @@ bot.on('message', msg => {
 
     }
 })
+
 bot.on('message', msg => {
     if (msg.content === ".ranks") {
 
@@ -103,6 +104,15 @@ bot.on('message', msg => {
     }
 })
 
+
+bot.on('message', msg => {
+    if (msg.content === ".runboost") {
+
+        
+        msg.reply('Noob ko Kyu Bulara');
+
+    }
+})
 
 
 
