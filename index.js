@@ -84,7 +84,7 @@ bot.on('message', msg => {
 })
 bot.on('message', msg => {
     if (msg.content === ".help") {
-        msg.channel.send(' ```𝐈𝐍𝐃𝐈𝐍𝐄𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐎𝐓  \n 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴 𝘖𝘯𝘭𝘺 𝘍𝘰𝘳 𝘈𝘥𝘮𝘪𝘯 \n -.kick @user_name \n -.ban @user_name \n \n 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴 𝘖𝘯𝘭𝘺 𝘍𝘰𝘳 𝘈𝘓𝘓 \n -.ranks - To get a Link To See Ranks \n-.sb To revies Your Ban \n-.top To See the Top 3 Plyers From Each Server with Kd \n -Some Greeting Commands  HELLO BYE \n\n ** Any Suggestions Related to BOT  Are Happly Taken \n- 𝐙𝐚𝐜𝐡 | 𝐀𝐝𝐦𝐢𝐧  \n \n \n 𝐇𝐚𝐩𝐩𝐲 𝐆𝐚𝐦𝐢𝐧𝐠 \n-TEAM INDINET  ```');
+        msg.channel.send(' ```𝐈𝐍𝐃𝐈𝐍𝐄𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐎𝐓  \n 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴 𝘖𝘯𝘭𝘺 𝘍𝘰𝘳 𝘈𝘥𝘮𝘪𝘯 \n -.kick @user_name \n -.ban @user_name \n \n 𝘊𝘰𝘮𝘮𝘢𝘯𝘥𝘴 𝘖𝘯𝘭𝘺 𝘍𝘰𝘳 𝘈𝘓𝘓 \n -.ranks - To get a Link To See Ranks \n-.sb To review Your Ban \n-.top To See the Top 3 Plyers From Each Server with Kd \n -Some Greeting Commands  HELLO BYE \n\n ** Any Suggestions Related to BOT  Are Happly Taken \n- 𝐙𝐚𝐜𝐡 | 𝐀𝐝𝐦𝐢𝐧  \n \n \n 𝐇𝐚𝐩𝐩𝐲 𝐆𝐚𝐦𝐢𝐧𝐠 \n-TEAM INDINET  ```');
 
     }
 })
