@@ -7,7 +7,7 @@ const token = 'NzMxMDMwODY2MTg4MzA0Mzk1.XwiPHQ.rzdDoCcgdxL21Li5Rsk8-rcHy4A';
 bot.on('ready', () => {
 
     console.log('This Bot is Online');
-    bot.user.setActivity('70,546 Players', { type: 'WATCHING' }).catch(console.error);
+    bot.user.setActivity('70,787 Players', { type: 'WATCHING' }).catch(console.error);
 
 })
 
