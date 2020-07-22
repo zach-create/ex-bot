@@ -106,10 +106,10 @@ bot.on('message', msg => {
 
 
 bot.on('message', msg => {
-    if (msg.content === ".runboost") {
+    if (msg.content === ".sb") {
 
         
-        msg.reply('Noob ko Kyu Bulara');
+        msg.reply('https://sourcebans.indinet.co.in/');
 
     }
 })
