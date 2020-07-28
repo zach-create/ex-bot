@@ -457,10 +457,9 @@ message.userr.send('THERE IS A WARNING FOR YOU');
     break;
 
 
+case 'clear':
 
-
-
-
+message.channel.bulkDelete(args[0]);
 
 
 
