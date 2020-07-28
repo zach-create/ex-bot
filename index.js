@@ -7,7 +7,7 @@ const token = 'NzMxMDMwODY2MTg4MzA0Mzk1.XwiPHQ.rzdDoCcgdxL21Li5Rsk8-rcHy4A';
 bot.on('ready', () => {
 
     console.log('This Bot is Online');
-    bot.user.setActivity('70,787 Players', { type: 'WATCHING' }).catch(console.error);
+    bot.user.setActivity('72,315 Players', { type: 'WATCHING' }).catch(console.error);
 
 })
 
@@ -97,7 +97,7 @@ bot.on('message', msg => {
 
         //msg.channel.send('Failed to load ss.rby script');
 
-        msg.channel.send(' ```𝐈𝐍𝐃𝐈𝐍𝐄𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐎𝐓  \n TOP PLAYERS OF EACH SERVERS \n RETAKE 1 \n- ＮＯＳＦＥ�..(150,740) 1.32 kd\n-XenoN (92,770) 1.06 kd\n-♥BrAd™♥ (76,774) 1.58 kd \n\n REATKE RUSH \n-Coston1c (6076) 1.51\n-Deathlyops (5500) 1.46 kd\n-azazel^ (5230) 1.50 kd\n\n SCRIM 2 \n-ItAin (2223) 2.06 kd \n-Okay!!! | cs.mone..(1776) 1.54 kd \n-pauL (1625) 1.18 kd\n \n CASUAL DEATHMATCH \n-hailzak (1010544) 2.12 kd\n-dTp_PhySco (967941) 1.84 kd\n-Kindle_YT (615222) 1.60 kd\n\n Arena 1 v 1 \n-SmokeBOB#dread... (138761) 2.06 kd\n-opguyyyy (106350) 5.36 kd\n-buddha (86471) 1.36\n\n Executes \n-r3kt3r (11107) 2.08 kd\n-uglyzoro (9131) 1.18 kd\n-RaNk3R (7208) 1.50 kd\n \nPUBLIC CASUAL \n-ホタル pnx- (147112) 1.14 kd\n-✪RAG3E2k (137053) 1.19 kd\n-haha what hhehehe..(118270) 1.56 kd \n \n ***NOTE:- This Bot Refreshes Every 24 Hours ***\n \n 𝐇𝐚𝐩𝐩𝐲 𝐆𝐚𝐦𝐢𝐧𝐠 \n-TEAM INDINET ```');
+        msg.channel.send(' ```𝐈𝐍𝐃𝐈𝐍𝐄𝐓 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋 𝐁𝐎𝐓  \n TOP PLAYERS OF EACH SERVERS \n RETAKE 1 \n- ＮＯＳＦＥ�..(150,740) 1.32 kd\n-XenoN (92,770) 1.06 kd\n-♥BrAd™♥ (76,774) 1.58 kd \n\n REATKE RUSH \n-Coston1c (10,699) 1.42\n-xTent (9813) 1.51 kd\n-squidsenpai (9585) 1.31 kd\n\n SCRIM 2 \n-ItAin (2223) 2.06 kd \n-Okay!!! | cs.mone..(1776) 1.54 kd \n-pauL (1625) 1.18 kd\n \n CASUAL DEATHMATCH \n-hailzak (1056735) 2.13 kd\n-dTp_PhySco (975164) 1.84 kd\n-Kindle_YT (639240) 1.60 kd\n\n Arena 1 v 1 \n-SmokeBOB#dread... (149020) 2.08 kd\n-opguyyyy (114118) 5.34 kd\n-buddha (86471) 1.36\n\n Executes \n-r3kt3r (11107) 2.08 kd\n-uglyzoro (9131) 1.18 kd\n-RaNk3R (7208) 1.50 kd\n \nPUBLIC CASUAL \n-Ps Styles (157008) 1.15 kd\n-✪AbsolutionN2k (140116) 1.19 kd\n-hi(128633) 1.56 kd \n \n ***NOTE:- This Bot Refreshes Every 24 Hours ***\n \n 𝐇𝐚𝐩𝐩𝐲 𝐆𝐚𝐦𝐢𝐧𝐠 \n-TEAM INDINET ```');
 
     
     
@@ -149,7 +149,7 @@ bot.on('message', message => {
                             message.reply(`Successfully Kicked  ${user.tag}`);
                         }).catch(err => {
                             message.react('❌');
-                            message.reply('i was Uynable to kick the user');
+                            message.reply('I was Unable to kick the user');
                             console.log(err);
 
 
@@ -158,7 +158,7 @@ bot.on('message', message => {
                     } else {
                         message.react('❌');
 
-                        message.reply("That Usser isint in the Server Right Now")
+                        message.reply("That User is'int in the Server Right Now")
 
 
                     }
@@ -358,6 +358,105 @@ bot.on('message', message => {
 
       });
       break;
+case 'warn':
+    if (message.member.roles.find(r => r.name === "GOD")) {
+
+
+
+        const userr = message.mentions.users.first();
+        if (userr) {
+            const member = message.guild.member(userr);
+            if (member) {
+
+                    message.react('✅');
+                    message.reply(`WARNING FOR YOU ${userr.tag}`)
+
+
+
+
+            } else {
+                message.react('❌');
+                message.reply("That Usser isint in the Server Right Now")
+
+
+            }
+        } else {
+            message.react('❌');
+            message.reply('You Need to Specify A Person')
+
+        }
+
+    } else if (message.member.roles.find(r => r.name === "Head Admin")) {
+
+        const userr = message.mentions.users.first();
+        if (userr) {
+            const member = message.guild.member(userr);
+            if (member) {
+
+                    message.react('✅');
+                    message.reply(`WARNING FOR YOU  ${userr.tag}`)
+
+
+
+
+               
+            } else {
+                message.react('❌');
+                message.reply("That Usser isint in the Server Right Now")
+
+
+            }
+        } else {
+            message.react('❌');
+            message.reply('You Need to Specify A Person')
+
+        }
+
+
+
+
+
+
+
+    } else if (message.member.roles.find(r => r.name === "BOTS")) {
+
+
+        const user = message.mentions.users.first();
+        if (user) {
+            const member = message.guild.member(user);
+            if (member) {
+
+                    message.react('✅');
+                    message.reply(`WARNING FOR YOU ${user.tag}`)
+                .catch(err => {
+
+                    message.reply('I was Unable to kick the user');
+                    console.log(err);
+
+
+                });
+
+            } else {
+                message.react('❌');
+                message.reply("That User isint in the Server Right Now")
+
+
+            }
+        } else {
+            message.react('❌');
+            message.reply('You Need to Specify A Person')
+
+        }
+
+    } else {
+        message.react('❌');
+        return message.channel.send('```YOU DO NOT HAVE THE PERMISSION```')
+
+    }
+    break;
+
+
+
 
 
 
