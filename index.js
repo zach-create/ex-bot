@@ -463,9 +463,10 @@ message.channel.bulkDelete(args[0]);
 
 
 
+
+break;
+    
     }
-
-
 
 
 
