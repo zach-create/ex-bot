@@ -358,6 +358,7 @@ bot.on('message', message => {
 
       });
       break;
+      
 case 'warn':
     if (message.member.roles.find(r => r.name === "GOD")) {
 
