@@ -358,7 +358,7 @@ bot.on('message', message => {
 
       });
       break;
-      
+
 case 'warn':
     if (message.member.roles.find(r => r.name === "GOD")) {
 
@@ -368,7 +368,7 @@ case 'warn':
         if (userr) {
             const member = message.guild.member(userr);
             if (member) {
-
+message.userr.send('THERE IS A WARNING FOR YOU');
                     message.react('✅');
                     message.reply(`WARNING FOR YOU ${userr.tag}`)
 
